@@ -1,6 +1,11 @@
 {
     "users": [
-        { "id": "23", "firstName": "Bill", "age": 20 },
-        { "id": "47", "firstName": "Samantha", "age": 21 }
+        { "id": "23", "firstName": "Bill", "age": 20, "companyId": 1 },
+        { "id": "34", "firstName": "Mike", "age": 23, "companyId": 2 },
+        { "id": "47", "firstName": "Samantha", "age": 21, "companyId": 1 }
+    ],
+    "companies": [
+        { "id": "1", "name": "Apple", "description": "Steve Jobs" },
+        { "id": "2", "name": "Microsoft", "description": "Bill Gates" }
     ]
 }
